@@ -13,7 +13,6 @@ import Managed from "../pages/Managed";
 import TokenDes from "./TokenDes";
 
 export default function VTList(props) {
-  console.log(props);
   let cVT = JSON.parse(localStorage.getItem("cVT") || "{}");
   // let cVTAddr = JSON.parse(localStorage.getItem("cVTAddr") || "false");
 
